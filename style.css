@@ -1,1 +1,63 @@
+body{
+    margin: 0px;
+}
+.Navig{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(48, 123, 235);
+    
+}
+.heading{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;  
+    padding-top: 10px;
+    text-align: center;
+}
+.container-loginform{
+    margin-top: 50px; 
+    display: flex;
+    justify-content: center;
+     
+}
 
+.LoginForm{
+    padding-top: 30px;
+    width: 40%;
+    height: 400px;
+    background-color: #1AC7EE;
+    border-radius: 20px;
+    box-shadow: 2px 3px 3px grey;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+ 
+}
+
+.labellogin{
+    font-family: Arial, Helvetica, sans-serif;
+    color: ghostwhite;
+    
+}
+
+.Textbox{
+    width: 50%;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 10px;
+    background-color: #EAEDED;
+    border-style: none;
+}
+
+.Loginbtn{
+    width:100px;
+    height: 30px;
+    margin-top: 30px; 
+    background-color: #68DAC0;
+    color: grey;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
+.Loginbtn:hover{
+    background-color: #0CB28C;
+}
